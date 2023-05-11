@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: gray;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url(fonts/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url(fonts/OpenSans-Regular.ttf);
+}
+.container {
+    max-width: 1183px;
+    width: 100%;
+    margin: 100px auto;
+}
+.content-wrapper {
+    position: relative;
+    height: 700px;
+    display: flex;
+    background-image: url(images/image.svg);
+}
+.input-content {
+    width: 581px;
+    height: 700px;
+    background: #FFFFFF;
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;
+    position: absolute;
+    right:0;
+}
+.input-logo {
+    text-align: center;
+}
+form {
+    padding-left: 59px;
+}
+label {
+    display: block;
+}
+.username-label {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 134.18%;
+    letter-spacing: 0.06em;
+    color: #003D61;
+}
+input {
+    margin-top: 10px;
+    width: 420px;
+    height: 35px;
+    border: 1px solid #003D61;
+    border-top: none;
+    border-right: none;
+}
+.password-input {
+    margin-top: 14px;
+}
+.password-input label {
+    color: #94B7CD;
+}
+.password-input input {
+    border: 1px solid #94B7CD;
+    border-top: none;
+    border-right: none;
+}
+.Email-input {
+    margin-top: 14px;
+}
+.terms-content {
+    margin-top: 59px;
+    padding-left: 59px;
+    display: flex;
+}
+.terms-text {
+    margin-left: 9px;
+}
+.terms-text span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #003D61;
+    backdrop-filter: blur(2px);
+}
+.terms-text span a {
+    padding: 5px;
+    color: #ED2980;
+}
+.below-span {
+    margin-top: 15px;
+    text-align: center;
+}
+.below-span span a{
+    padding: 5px;
+    color: #ED2980;
+}
+.below-span span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    color: #003D61;
+    backdrop-filter: blur(2px);
+}
